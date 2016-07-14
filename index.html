@@ -213,8 +213,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form name="sentMessage" id="contactForm" 
-                          action="https://formspree.io/janani.anbarasan@gmail.com" 
+                    <form name="sentMessage" id="contactForm"  
                           method="POST" 
                           novalidate>
                         <div class="row control-group">
@@ -249,7 +248,7 @@
                         <div id="success"></div>
                         <div class="row">
                             <div class="form-group col-xs-12">
-                                <button type="submit" value = "send" class="btn btn-success btn-lg">Send</button>
+                                <button id = "btnSubmit" class="btn btn-success btn-lg">Send</button>
                             </div>
                         </div>
                     </form>
@@ -542,7 +541,7 @@
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
-    <!--script src="js/contact_me.js"></script-->
+    <script src="js/contact_me.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
