@@ -478,3 +478,13 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+#thankyou {
+    background-color: #84C51F;
+}
+
+#thankyou p {
+    font-size: 2em;
+    color: #233140;
+    text-align: center;
+}
