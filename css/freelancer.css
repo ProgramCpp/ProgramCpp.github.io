@@ -433,8 +433,10 @@ footer .footer-below {
 
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
+    max-height: 300px;
 }
 
+/*img-portfolio*/
 .portfolio-modal .modal-content .item-details {
     margin: 30px 0;
 }
