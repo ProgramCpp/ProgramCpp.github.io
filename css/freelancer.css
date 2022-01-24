@@ -176,6 +176,13 @@ header .intro-text .skills {
     background-color: #84C51F;
 }
 
+.maintenance-notice {
+    background-color: #d64228;
+    padding-top: 125px;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+}
+
 section {
     padding: 100px 0;
 }
